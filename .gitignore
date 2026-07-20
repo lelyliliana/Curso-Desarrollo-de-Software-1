@@ -1,0 +1,9 @@
+# Archivos generados por Maven
+target/
+
+# Configuración local de Visual Studio Code
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
