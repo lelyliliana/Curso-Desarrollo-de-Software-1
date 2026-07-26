@@ -8,11 +8,11 @@ Los programas están organizados por unidades para facilitar su estudio, ejecuci
 
 ```text
 ejemplos/
-├── README.md
 ├── pom.xml
 └── src/main/java/com/lelyliliana/
     ├── unidad1/
-    └── unidad2/
+    ├── unidad2/
+    └── unidad3/
 ```
 
 ## Unidad 1
@@ -67,6 +67,36 @@ Ruta:
 ```text
 src/main/java/com/lelyliliana/unidad2
 ```
+
+## Unidad 3
+
+La Unidad 3 aborda el uso del entorno de desarrollo, el manejo de excepciones, las cadenas, las colecciones y los tipos enumerados en Java.
+
+Temas incluidos:
+
+- Organización del proyecto en el IDE.
+- Manejo de excepciones.
+- Uso de `try`, `catch` y `finally`.
+- Uso de `throw` y `throws`.
+- Métodos de la clase `String`.
+- Comparación, búsqueda y extracción de cadenas.
+- Validación de textos.
+- Uso de `StringBuilder`.
+- Paso por valor.
+- Referencias de objetos.
+- Clases utilitarias.
+- Paquetes `java.lang`, `java.util` y `java.time`.
+- Sobrecarga de métodos.
+- Uso de `ArrayList`.
+- Recorrido de listas.
+- Tipos enumerados.
+- Conversión con `valueOf()`.
+- Programa integrador de inventario.
+
+Ruta:
+
+```text
+ejemplos/src/main/java/com/lelyliliana/unidad3
 
 ## Compilación del proyecto
 
