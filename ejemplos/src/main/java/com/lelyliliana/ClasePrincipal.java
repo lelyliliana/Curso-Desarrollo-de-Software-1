@@ -1,26 +1,5 @@
 package com.lelyliliana;
 
-/*
- * TEMA: Método main
- *
- * No todas las clases necesitan tener un método main.
- * Solamente se necesita en la clase desde la cual
- * comienza la ejecución del programa.
- */
-
-// Esta clase no tiene método main
-class CalculadoraBasica {
-
-    // Método que retorna la suma
-    int sumar(int numero1, int numero2) {
-        return numero1 + numero2;
-    }
-
-    // Método que retorna la resta
-    int restar(int numero1, int numero2) {
-        return numero1 - numero2;
-    }
-}
 
 // Esta es la clase principal
 public class ClasePrincipal {

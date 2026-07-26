@@ -41,8 +41,8 @@ public class CalculadoraCompleta {
         CalculadoraCompleta calculadora = new CalculadoraCompleta();
 
         // Declaramos los números
-        double numero1 = 20;
-        double numero2 = 5;
+        double numero1 = 50;
+        double numero2 = 0;
 
         // Llamamos cada método y mostramos el resultado
         System.out.println(

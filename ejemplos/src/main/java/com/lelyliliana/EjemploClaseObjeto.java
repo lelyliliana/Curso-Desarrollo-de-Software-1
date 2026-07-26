@@ -41,9 +41,9 @@ public class EjemploClaseObjeto {
         Persona persona1 = new Persona();
 
         // Asignamos valores a sus atributos
-        persona1.nombre = "Laura";
-        persona1.edad = 25;
-        persona1.ciudad = "Sahagún";
+        persona1.nombre = "Leli";
+        persona1.edad = 42;
+        persona1.ciudad = "Sahagún - Córdoba";
 
         // Llamamos los métodos del objeto
         persona1.mostrarInformacion();

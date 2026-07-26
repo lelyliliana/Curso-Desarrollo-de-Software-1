@@ -65,8 +65,8 @@ public class ModificadoresAcceso {
     public static void main(String[] args) {
 
         CuentaBancaria cuenta = new CuentaBancaria(
-                "Ana Torres",
-                500000,
+                "Leli Díaz",
+                100000,
                 "Ahorros"
         );
 

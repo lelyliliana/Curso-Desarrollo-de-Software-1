@@ -33,5 +33,6 @@ public class CalculadoraVoid {
 
         // Reutilizamos el método con otros valores
         calculadora.sumar(20, 15);
+        calculadora.sumar(50, 96);
     }
 }
