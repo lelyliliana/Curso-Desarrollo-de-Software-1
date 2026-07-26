@@ -1,4 +1,4 @@
-package com.lelyliliana;
+package com.lelyliliana.unidad2;
 
 /*
  * TEMA: Método con parámetros y sin retorno

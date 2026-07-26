@@ -1,4 +1,4 @@
-package com.lelyliliana;
+package com.lelyliliana.unidad2;
 
 /*
  * TEMA: Constructor de una clase
