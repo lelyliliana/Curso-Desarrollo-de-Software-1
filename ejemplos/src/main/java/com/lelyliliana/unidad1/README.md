@@ -6,7 +6,7 @@ Los ejemplos están organizados en un orden progresivo. Se recomienda ejecutarlo
 
 ## Orden recomendado de estudio
 
-### 1. `HolaMundo.java`
+### 1. `U1_01_HolaMundo.java`
 
 **Tema:** estructura básica de un programa Java.
 
@@ -20,7 +20,7 @@ Incluye:
 
 ---
 
-### 2. `DatosPersonales.java`
+### 2. `U1_02_DatosPersonales.java`
 
 **Tema:** impresión de información en consola.
 
@@ -33,7 +33,7 @@ Incluye:
 
 ---
 
-### 3. `TiposDeDatos.java`
+### 3. `U1_03_TiposDeDatos.java`
 
 **Tema:** tipos de datos en Java.
 
@@ -51,7 +51,7 @@ Incluye:
 
 ---
 
-### 4. `ConstantesYPalabrasReservadas.java`
+### 4. `U1_04_ConstantesYPalabrasReservadas.java`
 
 **Tema:** constantes, nombres de variables y palabras reservadas.
 
@@ -65,7 +65,7 @@ Incluye:
 
 ---
 
-### 5. `OperadoresAritmeticos.java`
+### 5. `U1_05_OperadoresAritmeticos.java`
 
 **Tema:** operaciones matemáticas.
 
@@ -82,7 +82,7 @@ Incluye:
 
 ---
 
-### 6. `OperadoresRelacionalesLogicos.java`
+### 6. `U1_06_OperadoresRelacionalesLogicos.java`
 
 **Tema:** comparación de valores y operadores lógicos.
 
@@ -100,7 +100,7 @@ Incluye:
 
 ---
 
-### 7. `AsignacionIncrementos.java`
+### 7. `U1_07_AsignacionIncrementos.java`
 
 **Tema:** operadores de asignación e incremento.
 
@@ -117,7 +117,7 @@ Incluye:
 
 ---
 
-### 8. `EntradaDatosScanner.java`
+### 8. `U1_08_EntradaDatosScanner.java`
 
 **Tema:** entrada de datos desde la consola.
 
@@ -132,7 +132,7 @@ Incluye:
 
 ---
 
-### 9. `ConversionTiempo.java`
+### 9. `U1_09_ConversionTiempo.java`
 
 **Tema:** aplicación de variables y operadores.
 
@@ -146,7 +146,7 @@ Incluye división entera y operador módulo.
 
 ---
 
-### 10. `CondicionalSimple.java`
+### 10. `U1_10_CondicionalSimple.java`
 
 **Tema:** estructura `if`.
 
@@ -154,7 +154,7 @@ Permite ejecutar instrucciones solamente cuando una condición es verdadera.
 
 ---
 
-### 11. `CondicionalDoble.java`
+### 11. `U1_11_CondicionalDoble.java`
 
 **Tema:** estructura `if-else`.
 
@@ -168,7 +168,7 @@ Ejemplos incluidos:
 
 ---
 
-### 12. `CondicionalMultiple.java`
+### 12. `U1_12_CondicionalMultiple.java`
 
 **Tema:** estructura `if`, `else if` y `else`.
 
@@ -182,7 +182,7 @@ Ejemplos incluidos:
 
 ---
 
-### 13. `CondicionesCompuestas.java`
+### 13. `U1_13_CondicionesCompuestas.java`
 
 **Tema:** combinación de varias condiciones.
 
@@ -196,7 +196,7 @@ Incluye:
 
 ---
 
-### 14. `OperadorTernario.java`
+### 14. `U1_14_OperadorTernario.java`
 
 **Tema:** decisiones cortas.
 
@@ -215,7 +215,7 @@ Incluye ejemplos con:
 
 ---
 
-### 15. `EstructuraSwitch.java`
+### 15. `U1_15_EstructuraSwitch.java`
 
 **Tema:** selección entre varias opciones.
 
@@ -229,7 +229,7 @@ Incluye:
 
 ---
 
-### 16. `CicloFor.java`
+### 16. `U1_16_CicloFor.java`
 
 **Tema:** repeticiones conocidas.
 
@@ -244,7 +244,7 @@ Incluye:
 
 ---
 
-### 17. `CicloWhile.java`
+### 17. `U1_17_CicloWhile.java`
 
 **Tema:** repeticiones controladas por una condición.
 
@@ -260,7 +260,7 @@ Incluye:
 
 ---
 
-### 18. `CicloWhileCentinela.java`
+### 18. `U1_18_CicloWhileCentinela.java`
 
 **Tema:** cantidad desconocida de datos.
 
@@ -274,7 +274,7 @@ Incluye:
 
 ---
 
-### 19. `CicloDoWhile.java`
+### 19. `U1_19_CicloDoWhile.java`
 
 **Tema:** ciclo que se ejecuta al menos una vez.
 
@@ -287,7 +287,7 @@ Incluye:
 
 ---
 
-### 20. `ProgramaIntegradorUnidad1.java`
+### 20. `U1_20_ProgramaIntegradorUnidad1.java`
 
 **Tema:** integración de los contenidos de la unidad.
 
@@ -319,10 +319,10 @@ mvn clean compile
 ## Ejecución de un ejemplo
 
 ```bash
-mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad1.HolaMundo"
+mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad1.U1_01_HolaMundo"
 ```
 
-Para ejecutar otro archivo, cambia `HolaMundo` por el nombre de la clase correspondiente.
+Para ejecutar otro archivo, cambia `U1_01_HolaMundo` por el nombre de la clase correspondiente.
 
 ## Recomendación para los estudiantes
 

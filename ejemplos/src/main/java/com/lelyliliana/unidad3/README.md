@@ -6,7 +6,7 @@ Los ejemplos están organizados de forma progresiva. Se recomienda ejecutarlos e
 
 ## Orden recomendado de estudio
 
-### 1. `UsoIDE.java`
+### 1. `U3_01_UsoIDE.java`
 
 **Tema:** organización de un proyecto y uso del IDE.
 
@@ -21,7 +21,7 @@ Incluye:
 
 ---
 
-### 2. `ExcepcionDivision.java`
+### 2. `U3_02_ExcepcionDivision.java`
 
 **Tema:** manejo básico de excepciones.
 
@@ -35,7 +35,7 @@ Incluye:
 
 ---
 
-### 3. `ExcepcionEntradaDatos.java`
+### 3. `U3_03_ExcepcionEntradaDatos.java`
 
 **Tema:** control de datos incorrectos.
 
@@ -48,7 +48,7 @@ Incluye:
 
 ---
 
-### 4. `ExcepcionesMultiples.java`
+### 4. `U3_04_ExcepcionesMultiples.java`
 
 **Tema:** varios bloques `catch`.
 
@@ -62,7 +62,7 @@ Incluye:
 
 ---
 
-### 5. `LanzarExcepcion.java`
+### 5. `U3_05_LanzarExcepcion.java`
 
 **Tema:** generación intencional de excepciones.
 
@@ -75,7 +75,7 @@ Incluye:
 
 ---
 
-### 6. `PropagarExcepcion.java`
+### 6. `U3_06_PropagarExcepcion.java`
 
 **Tema:** propagación de excepciones.
 
@@ -88,7 +88,7 @@ Incluye:
 
 ---
 
-### 7. `MetodosString.java`
+### 7. `U3_07_MetodosString.java`
 
 **Tema:** métodos básicos de cadenas.
 
@@ -103,7 +103,7 @@ Incluye:
 
 ---
 
-### 8. `ComparacionCadenas.java`
+### 8. `U3_08_ComparacionCadenas.java`
 
 **Tema:** comparación de cadenas.
 
@@ -117,7 +117,7 @@ Incluye:
 
 ---
 
-### 9. `BusquedaEnCadenas.java`
+### 9. `U3_09_BusquedaEnCadenas.java`
 
 **Tema:** búsqueda dentro de textos.
 
@@ -132,7 +132,7 @@ Incluye:
 
 ---
 
-### 10. `ExtraccionCadenas.java`
+### 10. `U3_10_ExtraccionCadenas.java`
 
 **Tema:** extracción y modificación de cadenas.
 
@@ -146,7 +146,7 @@ Incluye:
 
 ---
 
-### 11. `ValidacionCadenas.java`
+### 11. `U3_11_ValidacionCadenas.java`
 
 **Tema:** validación de textos.
 
@@ -162,7 +162,7 @@ Incluye:
 
 ---
 
-### 12. `StringBuilderEjemplo.java`
+### 12. `U3_12_StringBuilderEjemplo.java`
 
 **Tema:** construcción eficiente de cadenas.
 
@@ -178,7 +178,7 @@ Incluye:
 
 ---
 
-### 13. `PasoPorValor.java`
+### 13. `U3_13_PasoPorValor.java`
 
 **Tema:** paso por valor con tipos primitivos.
 
@@ -190,7 +190,7 @@ Incluye:
 
 ---
 
-### 14. `ReferenciaObjetos.java`
+### 14. `U3_14_ReferenciaObjetos.java`
 
 **Tema:** comportamiento de objetos al enviarlos a métodos.
 
@@ -204,7 +204,7 @@ Incluye:
 
 ---
 
-### 15. `ClasesUtilitarias.java`
+### 15. `U3_15_ClasesUtilitarias.java`
 
 **Tema:** clases de apoyo del lenguaje.
 
@@ -220,7 +220,7 @@ Incluye:
 
 ---
 
-### 16. `PaquetesSistema.java`
+### 16. `U3_16_PaquetesSistema.java`
 
 **Tema:** paquetes comunes de Java.
 
@@ -236,7 +236,7 @@ Incluye:
 
 ---
 
-### 17. `SobrecargaUnidad3.java`
+### 17. `U3_17_SobrecargaUnidad3.java`
 
 **Tema:** sobrecarga de métodos.
 
@@ -250,7 +250,7 @@ Incluye:
 
 ---
 
-### 18. `ArrayListBasico.java`
+### 18. `U3_18_ArrayListBasico.java`
 
 **Tema:** uso básico de listas dinámicas.
 
@@ -267,7 +267,7 @@ Incluye:
 
 ---
 
-### 19. `ArrayListObjetos.java`
+### 19. `U3_19_ArrayListObjetos.java`
 
 **Tema:** almacenamiento de objetos en un `ArrayList`.
 
@@ -282,7 +282,7 @@ Incluye:
 
 ---
 
-### 20. `RecorrerArrayList.java`
+### 20. `U3_20_RecorrerArrayList.java`
 
 **Tema:** recorrido de listas.
 
@@ -297,7 +297,7 @@ Incluye:
 
 ---
 
-### 21. `Enumerados.java`
+### 21. `U3_21_Enumerados.java`
 
 **Tema:** tipos enumerados.
 
@@ -313,7 +313,7 @@ Incluye:
 
 ---
 
-### 22. `EnumConSwitch.java`
+### 22. `U3_22_EnumConSwitch.java`
 
 **Tema:** conversión y evaluación de enumerados.
 
@@ -327,7 +327,7 @@ Incluye:
 
 ---
 
-### 23. `ProgramaIntegradorUnidad3.java`
+### 23. `U3_23_ProgramaIntegradorUnidad3.java`
 
 **Tema:** sistema básico de inventario.
 
@@ -363,15 +363,15 @@ mvn clean compile
 ## Ejecución de un ejemplo
 
 ```bash
-mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad3.UsoIDE"
+mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad3.U3_01_UsoIDE"
 ```
 
-Para ejecutar otro programa, reemplaza `UsoIDE` por el nombre de la clase correspondiente.
+Para ejecutar otro programa, reemplaza `U3_01_UsoIDE` por el nombre de la clase correspondiente.
 
 Ejemplo:
 
 ```bash
-mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad3.ProgramaIntegradorUnidad3"
+mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad3.U3_23_ProgramaIntegradorUnidad3"
 ```
 
 ## Recomendación para los estudiantes

@@ -12,8 +12,11 @@ ejemplos/
 └── src/main/java/com/lelyliliana/
     ├── unidad1/
     ├── unidad2/
-    └── unidad3/
+    ├── unidad3/
+    └── unidad4/
 ```
+
+Cada unidad contiene sus archivos Java y un `README.md` con la descripción de los contenidos y el orden recomendado de estudio.
 
 ## Unidad 1
 
@@ -40,7 +43,13 @@ Temas incluidos:
 Ruta:
 
 ```text
-src/main/java/com/lelyliliana/unidad1
+ejemplos/src/main/java/com/lelyliliana/unidad1
+```
+
+Ejemplo inicial:
+
+```text
+U1_01_HolaMundo.java
 ```
 
 ## Unidad 2
@@ -65,7 +74,13 @@ Temas incluidos:
 Ruta:
 
 ```text
-src/main/java/com/lelyliliana/unidad2
+ejemplos/src/main/java/com/lelyliliana/unidad2
+```
+
+Ejemplo inicial:
+
+```text
+U2_01_EjemploClaseObjeto.java
 ```
 
 ## Unidad 3
@@ -97,10 +112,61 @@ Ruta:
 
 ```text
 ejemplos/src/main/java/com/lelyliliana/unidad3
+```
+
+Ejemplo inicial:
+
+```text
+U3_01_UsoIDE.java
+```
+
+## Unidad 4
+
+La Unidad 4 aborda conceptos avanzados de programación orientada a objetos y el desarrollo de interfaces gráficas con Java Swing.
+
+Temas incluidos:
+
+- Herencia.
+- Uso de `super`.
+- Sobrescritura de métodos.
+- Polimorfismo.
+- Listas polimórficas.
+- Clases abstractas.
+- Interfaces.
+- Implementación de múltiples interfaces.
+- Composición de objetos.
+- Ventanas con `JFrame`.
+- Paneles y administradores de diseño.
+- Controles gráficos.
+- Manejo de eventos.
+- Cuadros de diálogo con `JOptionPane`.
+- Formularios.
+- Validación de campos.
+- Expresiones regulares.
+- Tablas con `JTable`.
+- Programa integrador.
+
+Ruta:
+
+```text
+ejemplos/src/main/java/com/lelyliliana/unidad4
+```
+
+Ejemplo inicial:
+
+```text
+U4_01_HerenciaBasica.java
+```
+
+## Requisitos
+
+- Java JDK 21.
+- Maven.
+- Un entorno de desarrollo como Visual Studio Code, IntelliJ IDEA, Eclipse o NetBeans.
 
 ## Compilación del proyecto
 
-Desde la carpeta `ejemplos`, ejecutar:
+Desde la carpeta `ejemplos`, ejecuta:
 
 ```bash
 mvn clean compile
@@ -108,27 +174,43 @@ mvn clean compile
 
 ## Ejecución de una clase
 
-Para ejecutar una clase específica de la Unidad 1:
+Los comandos deben ejecutarse desde la carpeta `ejemplos`, donde se encuentra el archivo `pom.xml`.
+
+Ejemplo de la Unidad 1:
 
 ```bash
-mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad1.HolaMundo"
+mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad1.U1_01_HolaMundo"
 ```
 
 Ejemplo de la Unidad 2:
 
 ```bash
-mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad2.EjemploClaseObjeto"
+mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad2.U2_01_EjemploClaseObjeto"
 ```
+
+Ejemplo de la Unidad 3:
+
+```bash
+mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad3.U3_01_UsoIDE"
+```
+
+Ejemplo de la Unidad 4:
+
+```bash
+mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad4.U4_10_VentanaBasica"
+```
+
+Para ejecutar otro programa, reemplaza el nombre completo de la clase por el correspondiente.
 
 ## Recomendación de estudio
 
 Se recomienda:
 
-1. Leer los comentarios del código.
+1. Leer los comentarios incluidos en el código.
 2. Ejecutar cada programa.
-3. Observar la salida en consola.
+3. Observar la salida en consola o la interfaz gráfica.
 4. Modificar algunos valores.
-5. Volver a ejecutar.
+5. Ejecutar nuevamente.
 6. Explicar con palabras propias qué hace cada parte.
 
 ## Docente
