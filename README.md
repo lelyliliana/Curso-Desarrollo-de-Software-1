@@ -13,7 +13,8 @@ ejemplos/
     ├── unidad1/
     ├── unidad2/
     ├── unidad3/
-    └── unidad4/
+    ├── unidad4/
+    └── unidad5/
 ```
 
 Cada unidad contiene sus archivos Java y un `README.md` con la descripción de los contenidos y el orden recomendado de estudio.
@@ -158,6 +159,41 @@ Ejemplo inicial:
 U4_01_HerenciaBasica.java
 ```
 
+## Unidad 5
+
+La Unidad 5 aborda el almacenamiento permanente de información y la implementación de operaciones CRUD en Java.
+
+Temas incluidos:
+
+- Diferencia entre almacenamiento temporal y permanente.
+- Escritura y lectura de archivos.
+- Adición de registros.
+- Búsqueda de información.
+- Modificación de datos.
+- Eliminación de registros.
+- Conversión entre objetos y texto.
+- Almacenamiento de listas de objetos.
+- Recuperación de objetos desde archivos.
+- Operaciones CRUD.
+- Formularios gráficos.
+- Uso de `JTable`.
+- Uso de `DefaultTableModel`.
+- Validación de datos.
+- Persistencia desde interfaces gráficas.
+- Programa integrador.
+
+Ruta:
+
+```text
+ejemplos/src/main/java/com/lelyliliana/unidad5
+```
+
+Ejemplo inicial:
+
+```text
+U5_01_AlmacenamientoTemporalPermanente.java
+```
+
 ## Requisitos
 
 - Java JDK 21.
@@ -198,6 +234,12 @@ Ejemplo de la Unidad 4:
 
 ```bash
 mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad4.U4_10_VentanaBasica"
+```
+
+Ejemplo de la Unidad 5:
+
+```bash
+mvn exec:java -Dexec.mainClass="com.lelyliliana.unidad5.U5_20_ProgramaIntegradorUnidad5"
 ```
 
 Para ejecutar otro programa, reemplaza el nombre completo de la clase por el correspondiente.
